@@ -85,12 +85,12 @@ function sendTransaction(isAdding) {
   const errorEl = document.querySelector("form .error");
 
   // validate form
-  if (nameEl.value === "" || amountEl.value === "") {
-    errorEl.textContent = "Missing Information";
-    return;
-  } else {
-    errorEl.textContent = "";
-  }
+  // if (nameEl.value === "" || amountEl.value === "") {
+  //   errorEl.textContent = "Missing Information";
+  //   return;
+  // } else {
+  //   errorEl.textContent = "";
+  // }
 
   // create record
   const transaction = {
